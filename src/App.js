@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import CounterItem from "./components/counter/CounterItem";
+import WordStateItem from "./components/wordstate/WordstateItem";
+import AddNumberItem from "./components/addition/AddNumberItem";
+import SuperheroItem from "./components/superhero/SuperheroItem";
+import MovieItem1 from "./components/movies/MovieItem1";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <h1 className="title">Using React Hooks</h1>
+      <section className="container">
+        <CounterItem />
+        <WordStateItem />
+        <AddNumberItem />
+        <SuperheroItem />
+        <MovieItem1 />
+      </section>
+    </main>
   );
 }
 

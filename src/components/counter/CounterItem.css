@@ -1,0 +1,10 @@
+.counter-item__buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.counter-item__value {
+  font-size: 1rem;
+  margin: 0 1rem;
+}
